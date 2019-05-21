@@ -1,59 +1,3 @@
-/* =================================================================== 
- *
- *  Sublime v1.0 Main Stylesheet
- *  06-10-2018
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing 
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles
- *  # buttons
- *  # additional components
- *    ## alert box
- *    ## additional typo styles
- *    ## skillbars
- *  # reusable and common theme styles
- *    ## display headings
- *    ## section header
- *    ## grid overlay
- *  # header styles
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle 
- *  # home
- *    ## home content
- *    ## home video link
- *    ## home buttons
- *    ## home scroll
- *    ## home social
- *    ## home animations
- *  # about
- *    ## about process
- *  # services  
- *    ## services list
- *  # works
- *    ## bricks/masonry
- *  # clients
- *  # testimonials
- *  # contact
- *    ## contact social
- *  # footer
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
-
-
 /* ===================================================================
  * # base style overrides
  *
@@ -126,6 +70,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 @media only screen and (max-width:600px) {
   h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-top: 5.1rem;
+
   }
 }
 
@@ -1824,7 +1769,7 @@ body.menu-is-open {
   width: 30px;
   position: absolute;
   top: 41px;
-  right: 30px;
+  right: 25px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1839,7 +1784,7 @@ body.menu-is-open {
   background-color: #FFFFFF;
   position: absolute;
   top: 50%;
-  left: 7px;
+  left: 15px;
   margin-top: -1px;
 }
 
